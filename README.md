@@ -4,12 +4,10 @@ V tomto zadaní budete vytvárať riadenie pre mobilný robot Kobuki (real/sim).
 **Samotné simulačné prostredie:**
 ![image](https://github.com/user-attachments/assets/2bee4a5a-35a2-49c6-9599-6f93aca2cbc6)
 
-Znenie zadania
 Robot má mať vytvorený riadiaci program v ROS2 tak, že bude pozostávať z nasledujúcich režimov.
-**
+
 Režimy:
-**
-**Vypnutý stav. **Do robota nejdú žiadne riadiace príkazy z programu. V tomto režime bude začínať program. Pri prechode zo zapnutého do vypnutého režimu treba robota dať do stavu vhodného na vypnutie (zastavenie a skontrolovanie úspešného zastavenia).
+**Vypnutý stav.** Do robota nejdú žiadne riadiace príkazy z programu. V tomto režime bude začínať program. Pri prechode zo zapnutého do vypnutého režimu treba robota dať do stavu vhodného na vypnutie (zastavenie a skontrolovanie úspešného zastavenia).
 
 **Zapnutý stav a manuálny režim.** Robot bude možné ovládať pomocou manuálnych tlačidiel. Bude sa dať ovládať lineárna a rotačná rýchlosť robota a taktiež sa bude dať ho okamžite zastaviť. Po prechode z automatického do manuálneho režimu je plynulé pokračovanie riadiacich príkazov (ak má aktuálnu lineárnu rýchlosť 0.5 a prírastok je 0.1, tak znížením rýchlosti tlačidlom sa nastaví nová lineárna rýchlosť 0.4).
 
